@@ -32,7 +32,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "eac360db5fc86ft86450f3693e73o43f";
+    const apiKey = "t101bd1f4c090ffc63a061ob90a97f8a";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
@@ -46,7 +46,7 @@ export default function Weather(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/images/logo.svg" className="logo" alt="SheCodes Logo" />
+          <img src="/logo.png" className="logo" alt="SheCodes Logo" />
         </a>
         <form onSubmit={handleSubmit}>
           <div className="row">
