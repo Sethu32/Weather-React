@@ -76,7 +76,7 @@ export default function Weather(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            SIphosethu Gajana
+            Siphosethu Gajana
           </a>{" "}
           and is{" "}
           <a
